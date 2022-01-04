@@ -1,0 +1,133 @@
+
+// admin variables;
+@import "variables";
+//관리자 테마 elastic ui 
+@import '~@elastic/eui/dist/eui_theme_light.css';
+// _utils.scss 떄문에 필요 
+@import "~bootstrap/scss/bootstrap.scss";
+// printStore 테마가 antd으로 되어 있기에 필요하다. 
+@import '~antd/dist/antd.css';
+
+@import 'vendor/bourbon/bourbon';
+@import 'utils/mixin';
+
+@import 'vendor/media_query';
+
+@import 'utils/variable';
+
+/*1. RESET AND TYPHOGRAPHY */
+
+//1.1 reset
+@import 'base/antdesign_reset';
+@import 'base/reset';
+//1.2 typhography
+@import 'base/typhography';
+// admin
+// base
+@import "base";
+@import "overrides";
+@import "extends";
+@import "animations";
+@import "utils/utils";
+
+/*2. ELEMENTS */
+//2.1 grid
+@import 'elements/grid';
+// 2.2 list
+@import 'elements/list';
+// 2.3 button
+@import 'elements/button';
+// 2.4 form
+@import 'elements/form';
+//2.5 post
+@import 'elements/post';
+// 2.6 pagination
+@import 'elements/pagination';
+// 2.7 breadcrumb
+@import 'elements/breadcrumb';
+// 2.8 block
+@import 'elements/block';
+
+@import 'elements/panel';
+// 2.9 widget
+@import 'elements/widget';
+// 2.10 slider
+@import 'elements/slider';
+// 2.11 masonry
+// 2.12 product
+@import 'elements/product';
+// 2.13 banner
+@import 'elements/banner';
+// 2.14 filter
+@import 'elements/filter';
+// 2.15 table
+@import 'elements/table';
+// 2.16 loader
+@import 'elements/loader';
+// 2.17 modal
+@import 'elements/modal';
+// 2.17 accordion
+
+@import 'elements/accordion';
+
+// 2.18 modal
+@import 'elements/tabs';
+
+/*3. COMPONENTS */
+// 3.1 Cart
+@import 'components/cart';
+// 3.2 forms
+@import 'components/forms';
+// 3.3 search
+@import 'components/search';
+// 3.4 section
+@import 'components/section';
+// 3.5 pages
+@import 'components/pages';
+
+@import 'components/menu';
+
+//admin
+// components
+@import "components/header";
+@import "components/sidebar";
+@import "components/content";
+@import "components/page";
+@import "components/widget";
+@import "components/search-input";
+
+/*4. MODULES */
+// 4.1 header
+@import 'modules/navigations';
+@import 'modules/header';
+// 4.2 footer
+@import 'modules/footer';
+
+@import 'themes/effect';
+
+//admin themes
+@import "themes/colors";
+
+/*5. HELPERS */
+@import 'elements/helpers';
+
+// @import '../node_modules/ag-grid-community/dist/styles/ag-grid.scss';
+// @import "../node_modules/ag-grid-community/dist/styles/ag-theme-alpine/sass/ag-theme-alpine.scss";
+
+
+@import 'jay/redCart';
+@import 'jay/_redPrintingMenu';
+@import 'jay/mypage';
+@import 'jay/button';
+@import 'jay/adminTable.scss';
+@import 'jay/product.scss';
+
+
+@import 'themes/default/page';
+
+// admin templete
+// admin libraries
+
+// demos (only for demo pages)
+@import "demos/demos";
+

@@ -1,0 +1,47 @@
+
+
+.productPage{
+  
+    border : solid 5px;
+    border-color: crimson;
+    padding: 20px;
+    .productOrderName {
+
+    }
+}
+.productImgTable {
+    display: flex;
+  
+}
+.productName{
+    margin-top : 40px;
+}
+.productImgDiv{
+    flex-basis: 250px;
+    height: 250px;
+}
+
+.productImg{
+    flex-basis: 250px;
+    height: 250px;
+}
+
+.productTable{ 
+    flex-basis: 250px;
+    height: 100px;
+}
+.productFileList{
+    padding: 10px;
+}
+.productButton{
+    
+}
+.productBinding{
+    display: flex;
+    th{
+        width : 50px;
+    }
+    td{
+        width : 50px;
+    }
+}

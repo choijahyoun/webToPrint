@@ -1,0 +1,321 @@
+// 작성자 최재현
+// 작성일자 4월 19일 
+// 마이페이지 관련된 css 모음
+
+.titleLineMy{
+    width: 100%;
+    border-top: 2px solid #f75253;
+    padding-top: 15px;
+   ul{
+       list-style: none;
+   }
+}
+
+.mytab{
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-bottom: none;
+    padding: 0px;
+    margin-bottom: 60px;
+    li{
+        float: left;
+        width: 16.666666667%;
+        text-align: center;
+        border-right: 1px solid #e4e4e4;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .borL{
+        border-left: 1px solid #e4e4e4;;
+    }
+}
+
+// 마이페이지에서 form에 관련된 css 열림프린팅 마이페이지 참조 
+.myWrap{
+    width: 100%;
+    box-sizing : border-box;
+    border : 6px solid #e3404e;
+    padding : 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 12px 0.2px #a8a8a8;
+    ul{
+        list-style: none;
+    }
+    .orderTLWrap{
+        position : relative;
+        width: 874px;
+        margin-right: 20px;
+        table{
+            width: 100%;
+            font-size: 16px;
+            th{
+                border-bottom: 1px solid #e2e2e2;
+                color: #777;
+                text-align: left;
+                padding: 16px 0 16px 15px;
+                background: #ecbeba;
+                font-size: 14px;
+                width: 100px;
+            }
+            td{
+                border: 1px solid #e2e2e2;
+                padding: 10px 0 10px 10px;
+            }
+        }
+    }
+    .orderTR{
+        position: relative;
+    }
+    .myTit{
+        width: 100%;
+        margin-bottom: 20px;
+        h3{
+            font-size: 1.8em;
+            color: #333;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        span{
+            color: #767676;
+        }
+    }
+    .myList1{
+        width: 100%;
+        border-top: 2px solid #6b6f7a;
+        
+        table{
+            width: 100%;
+            th{
+                background: #f6f6f6 ;
+                color: #555;
+                border-bottom: 1px solid #ccc;
+                height: 54px;
+                border-right: 1px solid #ccd6da;
+                text-align: center;
+            }
+            td{
+                border-bottom: 1px solid #ccc;
+                text-align: center;
+                padding: 15px 0;
+                line-height: 150%;
+                font-size: 16px;
+            }
+        }
+    }
+    .myList2{
+        width: 100%;
+        border-top: 2px solid #6b6f7a;
+        table{
+            width: 100%;
+            th{
+                background: #f6f6f6;
+                color: #555;
+                border-bottom: 1px solid #ccc;
+                height: 54px;
+                text-align: center;
+            }
+            td{
+                border-bottom: 1px solid #ccc;
+                padding: 6px 20px;
+                line-height: 150%;
+                color: #666;
+                background: #fff;
+                font-size: 14px;
+            }
+        }
+        .myTxt{
+            color: #39b8da
+        }
+        .myTxt2{
+            color: #e3404e
+        }
+    }
+    .mgb10{
+        margin-bottom: 10px;
+    }
+    .payT2{
+        width: 100%;
+        border: 1px solid #ccd6da;
+        border-top: 2px solid #666;
+        table{
+            width: 100%;
+            font-size: 14px;
+            text-align: center;
+            th{
+                background: #f5f5f5;
+                padding: 8px 0 !important;
+                border-right: 1px solid #ccd6da;
+                width: 12.5%;
+            }
+            td{
+                padding: 8px 0;
+                text-align: center;
+                padding-right: 20px;
+                border-right: 1px solid #ccd6da;
+            }
+        }
+    }
+    .myList1_n2{
+        width: 100%;
+        border-top: 2px solid #6b6f7a;
+        th{
+            background: #f6f6f6;
+            text-align: center;
+            color: #555;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            height: 33px;
+           
+        }
+        td{
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            text-align: center;
+            padding: 10px 0;
+            line-height: 150%;
+            font-size: 14px;
+            .a_r{
+                text-align: right;
+                padding-right: 30px;
+            }
+        }
+        .boL{
+            border-bottom: 1px solid rgb(133, 128, 128);
+        }
+    }
+    .myList1_n3{
+        width: 100%;
+        border-top: 2px solid #6b6f7a;
+        table{
+            width: 100%;
+            th{
+                color: #555;
+                border-bottom: 1px solid #ccc;
+                padding: 12px 0;
+                border-right: 1px solid #ddd;
+                background: #f6f6f6;
+                text-align: center;
+            }
+            td{
+                border-bottom: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+                text-align: center;
+                padding: 10px 0;
+                line-height: 150%;
+                font-size: 14px;
+                .a_r{
+                    text-align: right;
+                    padding-right: 30px;
+                }
+            }
+
+        }
+    }
+    .mgb40{
+        margin-bottom: 40px;
+    }
+    .pagingMy{
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+        
+        width: 100%;
+    }
+    .myList3{
+        width: 100%;
+        
+    }
+    .myOutline{
+        padding: 36px;
+        border: 4px solid #3b404f;
+    
+        width: 1088px;
+        .myTit{
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+            h4{
+                font-size: 1.8em;
+                color: #333;
+                display: inline-block;
+                margin-bottom: 15px;
+                margin-right: 15px;
+            }
+            span{
+                color: #767676;
+            }
+        }
+        .myTable1{
+            width: 710px; 
+            
+        }
+        .myTable2{
+            width: 384px;
+        }
+
+        .orderGo{
+            width: 100px;
+            margin: 0 auto;
+        }
+
+        .orderUpDel{
+            margin-left: auto;
+        }
+        
+    }
+    .mgb40{
+        margin-bottom: 40px;
+    }
+    .mgb20{
+        margin-bottom: 20px;
+    }
+    .borL{
+        border-left: 1px solid #ddd;
+    }
+    .fileName2{
+        width: 100%;
+    }
+    .h2wrap{
+        width: 100%;
+        float:  initial;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        h2{
+            width: 100%;
+            float: initial;
+            font-size: 1.8em;
+            color: #333; 
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        p{
+            float: initial;
+            width: 100%;
+            font-size: 16px;
+            padding: 15px 10px 15px 90px;
+            line-height: 140%;
+            // background: #f8f8f8 url(../images/ico_pdf.gif) 20px 15px no-repeat;
+            border: 1px solid #e7e7e7;
+            font-weight: bold;
+        }
+        .icoRead{
+            float: initial;
+            width: 100%;
+            line-height: 140%;
+            margin-bottom: 5px;
+            // background: #f8f8f8 url(../images/ico_read.gif) 20px 15px no-repeat;
+            padding: 15px 10px 15px 90px;
+            border: 1px solid #e7e7e7;
+            font-weight: bold;
+        }
+       
+    }
+    .fileButton{
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 273px;
+        margin: 0 auto;
+    }
+    
+}

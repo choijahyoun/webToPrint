@@ -1,0 +1,17 @@
+import React from 'react';
+
+const NextArrow = (props) => {
+    return (
+        <button
+            className={`slick-arrow slick-next ${className}`}
+            onClick={onClick}>
+            {icon ? (
+                <i className={icon}></i>
+            ) : (
+                <i className="icon-chevron-right"></i>
+            )}
+        </button>
+    );
+};
+
+export default NextArrow;

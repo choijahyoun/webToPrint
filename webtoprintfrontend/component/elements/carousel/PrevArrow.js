@@ -1,0 +1,17 @@
+import React from 'react';
+
+const PrevArrow = (props) => {
+    return (
+        <button
+            className={`slick-arrow slick-prev ${className}`}
+            onClick={onClick}>
+            {icon ? (
+                <i className={icon}></i>
+            ) : (
+                <i className="icon-chevron-left"></i>
+            )}
+        </button>
+    );
+};
+
+export default PrevArrow;

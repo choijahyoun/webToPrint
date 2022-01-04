@@ -1,0 +1,97 @@
+.header-menu{
+    ul{
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row nowrap;
+        position: relative;
+        li{
+            .header-menu-list02.active{
+                opacity: 1;
+            }
+            a{
+                display: block;
+                font-size: 14px;
+                color: #3c3c3c;
+                padding: 16px 20px 18px 20px;
+                &:hover{
+                    color: red;
+                }
+            }
+            .header-menu-list02{
+                display: none;
+                opacity: 0;
+                height: 450px;
+                position: absolute;
+                z-index: 1;
+                background: #fff;
+                width: 1300px;
+                left: 0px;
+                box-sizing: border-box;
+                overflow: hidden;
+                border: 1px solid #3c3c3c;
+           
+                li{
+                    a{
+                        font-size: 13px;
+                        font-weight: normal;
+                        line-height: normal;
+                        color: #3c3c3c;
+                    }
+                }
+                .menu-second.active{
+                    opacity: 1;
+                }
+                .menu-second{
+                    width: 236px;
+                    display: inline-block;
+                    opacity: 0;
+                    transition: opacity 0.8s;
+                    margin-top: 22px;
+                    z-index: 0;
+                   
+                }
+                .header-menu-list03.active{
+                    display: block;
+                    opacity: 1;
+                }
+                .header-menu-list03{
+                    display: none;
+                    position: absolute;
+                    border-left: 1px solid #d8d8d8;
+                    width: 450px;
+                    height: 450px;
+                    left: 236px;
+                    top: 0px;
+                    .menu-third {
+                        margin: 22px 0px 0px 32px;
+                        display: inline-block;
+                        width: 192px;
+                    }
+                    .menu-banner{
+                        position: absolute;
+                        left: 453px;
+                        top: -1px;
+                        transition: opacity 0.5s ease;
+                        opacity: 0;
+                        .active{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .active{
+                display: block;
+                z-index: 1;
+                opacity: 1;
+            }
+        }
+    }
+    .active{
+        display: block;
+    }
+}
+
+li {
+    list-style: none;
+}
